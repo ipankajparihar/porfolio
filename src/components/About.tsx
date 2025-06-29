@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { highlights } from "../portfolio-data/portfolio";
-import PankajImg from "../media/Pankaj.jpg";
 
 const About = () => {
   return (
@@ -58,8 +57,8 @@ const About = () => {
             >
               <div className="w-full h-96 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-2xl backdrop-blur-sm border border-white/10 flex items-center justify-center">
                 <img
-                  src={PankajImg}
-                  alt="Pankaj"
+                  src={"/portfolio/Pankaj.jpg"}
+                  alt="profile image"
                   className="h-full object-cover"
                 />
               </div>

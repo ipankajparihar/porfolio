@@ -70,7 +70,7 @@ const Experience: React.FC = () => {
                     </div>
 
                     <div className="flex flex-wrap gap-2">
-                      {exp.technologies.map((tech, i) => (
+                      {exp.technologies.map((tech) => (
                         <motion.div
                           key={tech}
                           className="px-3 py-1 bg-slate-700/50 rounded-full text-gray-300 hover:text-white hover:bg-slate-600/50 transition-all duration-300"
